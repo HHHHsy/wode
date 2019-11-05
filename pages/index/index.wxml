@@ -1,0 +1,24 @@
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}"
+bindtap="play">
+   <image src="/images/music_icon.png" />
+   <image src="/images/music_play.png" />
+</view>
+<!--背景-->
+<image class="bg" src="/images/bg_1.png"></image>
+<!--内容-->
+<view class="content">
+<!--gif-->
+  <image class="content-gif" src="/images/save_the_date.gif"></image>
+<!--标题-->
+  <view class="content-title">邀请函</view>
+<!--合照-->
+  <view class="content-avatar">
+    <image src="/images/avatar.png"></image>
+  </view>
+  <view class="content-info"></view>
+  <view class="content-address">
+    <view>我们很高兴你们来参加我们的婚礼</view>
+    <view>时间：2019年11月5日11:27:04</view>
+  <view>地点：祖安</view>
+</view>
+</view>
